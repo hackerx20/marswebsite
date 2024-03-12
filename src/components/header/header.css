@@ -1,0 +1,114 @@
+
+.header{
+    width: 100%;
+    height: 80px;
+    line-height: 60px;
+}
+.nav__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+    list-style: none;
+}
+.menu__link{
+    font-weight: 400;
+    font-size: 0.9 rem;
+    cursor: pointer;
+}
+.menu__link:hover{
+    color:var(--link-active);
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    background: white;
+    border:1px solid white;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.light__mode span{
+    color:white;
+    display: flex;
+    align-items: center;
+    column-gap: 0.4rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.light-theme .light__mode span{
+    color:black;
+    font-weight: 500;
+}
+.header__shrink{
+    width: 100%;
+    height: 80px;
+    line-height: 60px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background: #0c123d;
+}
+.mobile__menu{
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    display: none;
+
+}
+.light-theme .mobile__menu{
+    color: black;
+}
+@media only screen and (max-width: 992px){
+    /* .header{
+        height: 50px;
+        line-height: 50;
+        width: 100%;
+    } */
+    .navigation{
+        position:fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background:rgba(6,11,26,0.868);
+        z-index: 99999;
+        display: none;
+    }
+    
+    .menu{
+        flex-direction: column;
+        background: #0c123d;
+        width: 250px;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 999999;
+    }
+    .menu__active{
+        display:block;
+    }
+    .mobile__menu{
+        display: block;
+    }
+}
+@media only screen and (max-width: 768px){
+    .header{
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+    }
+    .mobile__menu{
+        font-size: 1rem;
+    }
+    .logo h2{
+        font-size: 1.3rem;
+    }
+}
