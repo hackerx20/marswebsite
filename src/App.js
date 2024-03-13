@@ -9,10 +9,12 @@ import About from './components/UI/About';
 import Team from './components/UI/Team';
 import Projects from './components/UI/Projects';
 import Footer from './components/Footer/Footer';
+
+
 function App() {
   const [theme,setTheme] = useState('')
   const toggleTheme = () =>{
-    theme === '' ? setTheme("light-theme") : setTheme('')
+    theme === 'light-theme' ? setTheme("dark-theme") : setTheme('light-theme')
   }
   useEffect(() => {
     document.body.className = theme;
