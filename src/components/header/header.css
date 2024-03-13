@@ -53,6 +53,9 @@
     z-index: 9999;
     background: #0c123d;
 }
+.light-theme .header__shrink{
+    background: white;
+}
 .mobile__menu{
     color: white;
     font-size: 1.3rem;
