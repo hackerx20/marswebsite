@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 1.429vw;
+    padding-bottom: 1.429vw;
 }
 .counter__item {
     width:33%;

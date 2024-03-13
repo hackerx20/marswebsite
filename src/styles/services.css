@@ -28,15 +28,16 @@
     cursor : pointer;
 }
 .service__icon{
-    width: 60px;
-    height: 60px;
+    width: 4.286vw;
+    height: 4.286vw;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
     background: var(--icon-bg);
     border-radius: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 2.143vw;
+    margin-bottom: 2.143vw;
     border: 1px solid var(--primary-color) ;
 }
 .light-theme .service__icon{

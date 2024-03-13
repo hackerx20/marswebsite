@@ -1,15 +1,16 @@
 .project__top-content{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 3.571vw;
 }
 .project__top-content h2{
-    padding-bottom:20px;
+    padding-bottom:1.429vw;
 }
 .project__item{
     width: 30%;
-    padding: 30px 25px;
+    padding: 2.143vw 1.786vw;
     background:var(--card-bg);
     border-radius: 0.4 rem;
+    
 }
 .project__item h3{
     color: whitesmoke;
@@ -62,6 +63,7 @@
 @media only screen and (max-width: 768px){
     .project__item{
         width: 45%;
+        margin-bottom: 20px ;
     }
     /* .project__item:nth-child(2){
         width: 50%;

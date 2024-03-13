@@ -6,15 +6,15 @@
     width: 50%;
 }
 .hero__content{
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-top: 2.858vw;
+    padding-bottom: 1.429vw;
 }
 .hero__content h2{
     font-size: 3rem;
-    line-height: 65px;
+    line-height: 4.643vw;
 }
 .hero__content p{
-    margin-top: 40px;
+    margin-top: 2.858vw;
     font-size: 1.1rem;
 }
 .hero__img img{
@@ -25,7 +25,7 @@
     color:var(--primary-color);
 }
 .hero__btns{
-    margin-top: 40px;
+    margin-top: 2.858vw;
     display: flex;
     align-items: center;
     column-gap: 2rem;
@@ -48,13 +48,13 @@
 @media only screen and (max-width: 992px){
     .hero__content h2{
         font-size: 2rem;
-        line-height: 50px;
+        line-height: 5.04vw;
     }
 }
 @media only screen and (max-width: 768px){
     .hero__content h2{
         font-size: 1.5rem;
-        line-height: 45px;
+        line-height: 5.859vw;
     }
     .hero__content p{
         font-size: 0.9rem;

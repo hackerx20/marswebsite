@@ -1,5 +1,5 @@
 .footer{
-    padding: 60px 0px;
+    padding: 4.286vw 0vw;
 }
 .footer__wrapper{
     display: flex;
@@ -18,7 +18,7 @@
     font-size:1.1rem;
     color:var(--primary-color);
     font-weight: 500;
-    margin-bottom: 30px;
+    margin-bottom: 2.143vw;
 }
 .text-big{
     font-size: 1.5rem ;
@@ -30,7 +30,7 @@
     display: flex;
 }
 .quick__link-item {
-    margin-right: 30px;
+    margin-right: 2.413vw;
 }
 .quick__link-item a{
     font-size: 0.9rem;
