@@ -69,14 +69,14 @@ const Header = ({ theme, toggleTheme }) => {
                         </ul>
                     </div>
                     <div className="light__mode">
-                        <span onclick={toggleTheme}>
+                        <span onClick={toggleTheme}>
                             {
-                                theme === "light-mode" ? (<span><i class="ri-moon-line"></i>Dark</span>) : (<span><i class="ri-sun-line"></i>Light</span>)
+                                theme === "light-theme" ? (<span><i className="ri-moon-line"></i>Dark</span>) : (<span><i className="ri-sun-line"></i>Light</span>)
                             }
                         </span>
                     </div>
                     <span className="mobile__menu" onClick={toggleMenu}>
-                        <i class="ri-menu-line"></i>
+                        <i className="ri-menu-line"></i>
                     </span>
                 </div>
             </div>

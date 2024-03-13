@@ -37,6 +37,9 @@
     align-items: center;
     justify-content: space-between;
 }
+.light-theme .project__item h3{
+    color: blueviolet;
+}
 /* .project__item:nth-child(2) .project__img{
     margin-top: 0px;
     margin-bottom: -10px;
